@@ -128,7 +128,7 @@ nav .menu {
 }
 
 #Notes {
-    padding: 120px 0;
+    padding: 80px 0 120px 0;
 }
 
 .section-header {
@@ -282,4 +282,60 @@ nav .menu {
     color:  #627382;
     padding-top:16px;
     line-height: 20px;
+}
+#footer {
+    background-color:  #001931;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 40px; 
+}
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.footer-logo img {
+    height: 60px; 
+    width:auto;
+}
+.footer-socials {
+    text-align:left;
+    height: 64px; 
+    width:220px;
+}
+.footer-socials p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.social-icons a {
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #051120;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+}
+.footer-bottom {
+    border-top: 1px solid  #e5e7eb; 
+    text-align: center;
+    padding-top: 32px;
+}
+.footer-bottom p {
+    font-size: 16px;
+    color:  #fafafa;
+    line-height: 24px;
 }
